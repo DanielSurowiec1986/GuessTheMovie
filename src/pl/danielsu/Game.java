@@ -7,16 +7,16 @@ public class Game {
 
 
     String movieName;
-
-
-    public Game(String movieName) {
-        this.movieName = movieName;
-    }
-
     String movieNameEncrypt;
     String letters = "";
     List<Character> wrongLetters = new ArrayList<>();
     boolean isWin = false;
+
+    public Game(String movieName) {
+
+        this.movieName = movieName;
+    }
+
 
 
     public void movieNameEncrypt() {
